@@ -1,7 +1,6 @@
 language: java
 jdk:
   - oraclejdk8
-script: mvn clean install  
 deploy:
   provider: heroku
   app: mysterious-crag-70403
